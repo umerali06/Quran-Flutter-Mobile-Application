@@ -1,0 +1,53 @@
+name: quran
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_plus: ^1.0.1
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  share_plus: ^11.0.0
+  scrollable_positioned_list: ^0.3.8
+  fluttertoast: ^8.2.12
+  loading_animation_widget: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon2.jpeg"
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/quran/
+    - assets/all_surahs.json
+    - assets/user.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: fonts/Montserrat-Bold.ttf
+          weight: 700
+    - family: AlQalamQuran
+      fonts:
+        - asset: fonts/AlQalamQuran.ttf
+    - family: Al-Majeed-Quran
+      fonts:
+        - asset: fonts/Al-Majeed-Quran.ttf
+  uses-material-design: true
