@@ -115,7 +115,7 @@ This project was developed as a semester-end project for the **Mobile Applicatio
 
 ## 👨‍💻 Developed By
 
-**Muhammad Hassan Raza**  
+**Umer Ali**  
 University of Agriculture, Faisalabad
 
 ---
